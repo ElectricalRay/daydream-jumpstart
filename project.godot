@@ -15,6 +15,11 @@ run/main_scene="uid://mspi0gn6wx11"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameController="*res://Scripts/game_controller.gd"
+EventController="*res://Scripts/event_controller.gd"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
@@ -44,3 +49,7 @@ jump={
 [physics]
 
 2d/default_gravity=2500.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
